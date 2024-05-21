@@ -1,0 +1,636 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #e6933e; /* Laranja alaranjado */
+    color: #fff;
+    text-align: center;
+    max-height: 250px; /* Limita a altura máxima do header */
+  }
+  
+/* Estilos para os rótulos do formulário */
+.support-form label {
+    color: #e6933e; /* Mesma cor do cabeçalho */
+    display: block;
+    margin-top: 20px; /* Espaçamento entre os rótulos */
+}
+
+/* Estilos para o formulário */
+.support-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    height: 70vh; /* Definir altura para centralização vertical */
+}
+
+
+.support-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Utilizar toda a largura disponível */
+    align-items: center; /* Centralizar horizontalmente */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 80%; /* Limitar a largura para evitar esticamento */
+    display: flex; /* Usar flexbox para alinhar input e label na mesma linha */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.form-group label {
+    font-weight: bold;
+    width: 30%; /* Definir largura fixa para os labels */
+    margin-right: 10px; /* Espaçamento entre o input e o label */
+    text-align: right; /* Alinhar texto à direita */
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group textarea {
+    flex: 1; /* Ocupar espaço disponível */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos para o formulário de suporte */
+.support-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-form label {
+    display: block;
+    background-color: #e6933e; /* Cor de fundo igual ao do header */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+    border-radius: 4px 4px 0 0; /* Arredonda apenas o topo */
+}
+
+.support-form input,
+.support-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 0 0 4px 4px; /* Arredonda apenas a base */
+    border: 1px solid #ccc;
+}
+
+.support-form textarea {
+    height: 100px;
+}
+
+
+/* Estilos para o link de navegação no cabeçalho */
+header nav a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Estilos para o separador "|" no cabeçalho */
+header nav .separator {
+    color: #fff; /* Cor dos separadores */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Estilos para o fundo do corpo do site */
+body {
+    background-color: #f4e0d4; /* Bege claro */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Definindo uma fonte genérica */
+    text-align: justify;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    width: 100%;
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    padding: 20px;
+}
+
+/* Estilos para a seção de receitas na página principal */
+.recipe-preview {
+    max-width: 800px;
+    margin: 20px auto; /* Margem automática nas laterais para centralizar */
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Adicionado fundo branco */
+    border-radius: 10px; /* Adicionado bordas arredondadas */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* Adicionado sombra */
+}
+
+/* Estilos para os títulos das receitas na página principal */
+.recipe-preview h2 {
+    color: #e6933e; /* Laranja alaranjado */
+    font-size: 24px; /* Aumentado o tamanho do texto */
+    line-height: 1.4; /* Aumentado o espaçamento entre linhas */
+    letter-spacing: 0.5px; /* Aumentado o espaçamento entre letras */
+}
+
+/* Estilos para o texto das receitas na página principal */
+.recipe-preview p {
+    font-size: 18px; /* Aumentado o tamanho do texto */
+    line-height: 1.6; /* Aumentado o espaçamento entre linhas */
+    letter-spacing: 0.25px; /* Aumentado o espaçamento entre letras */
+}
+
+/* Estilos para os links de ver receita na página principal */
+.recipe-preview a {
+    color: #e6933e; /* Laranja alaranjado */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Estilos para a seção de receitas */
+.recipe-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilos para a seção de imagem */
+.recipe-image {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estilos para os títulos das receitas */
+.recipe-content h2 {
+    color: #e6933e; /* Laranja alaranjado */
+    font-size: 24px; /* Aumentado o tamanho do texto */
+    line-height: 1.4; /* Aumentado o espaçamento entre linhas */
+    letter-spacing: 0.5px; /* Aumentado o espaçamento entre letras */
+}
+
+/* Estilos para o texto das receitas */
+.recipe-content p,
+.recipe-content ul,
+.recipe-content ol {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px; /* Aumentado o tamanho do texto */
+    line-height: 1.6; /* Aumentado o espaçamento entre linhas */
+    letter-spacing: 0.25px; /* Aumentado o espaçamento entre letras */
+}
+
+/* Estilos para os links de ver receita */
+.recipe-content a {
+    color: #e6933e; /* Laranja alaranjado */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #e6933e; /* Laranja alaranjado */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilos para os espaços reservados de imagem */
+.image-placeholder {
+    width: 250px; /* Tamanho do espaço reservado */
+    height: 250px; /* Tamanho do espaço reservado */
+    background-color: #f8d3ab; /* Bege claro */
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    margin-bottom: 20px; /* Adicionado um espaçamento inferior */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do espaço reservado */
+    display: flex; /* Adicionado para centralizar a imagem verticalmente */
+    justify-content: center; /* Adicionado para centralizar a imagem horizontalmente */
+    align-items: center; /* Adicionado para centralizar a imagem verticalmente */
+}
+
+.image-placeholder img {
+    width: 100%; /* Tamanho da imagem igual ao espaço reservado */
+    height: 100%; /* Tamanho da imagem igual ao espaço reservado */
+    object-fit: fill; /* Ajusta a imagem para preencher completamente o espaço reservado, mesmo que distorça */
+}
+
+.back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-link img {
+    width: 50px;  /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+/* Estilos para o formulário de cadastro */
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    height: 70vh; /* Definir altura para centralização vertical */
+}
+
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Utilizar toda a largura disponível */
+    align-items: center; /* Centralizar horizontalmente */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 80%; /* Limitar a largura para evitar esticamento */
+    display: flex; /* Usar flexbox para alinhar input e label na mesma linha */
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.form-group label {
+    font-weight: bold;
+    width: 30%; /* Definir largura fixa para os labels */
+    margin-right: 10px; /* Espaçamento entre o input e o label */
+    text-align: right; /* Alinhar texto à direita */
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    flex: 1; /* Ocupar espaço disponível */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-group .newsletter-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-group input[type="checkbox"] {
+    margin-left: 10px; /* Espaçamento entre o input e o texto */
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e6933e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Largura do botão */
+}
+
+button[type="submit"]:hover {
+    background-color: #d0822f;
+}
+
+/* Estilos adicionais para a página de suporte */
+.support-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-form label,
+.support-form input,
+.support-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.support-form textarea {
+    height: 100px;
+}
+
+.support-form button {
+    padding: 10px 20px;
+    background-color: #e6933e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.support-form button:hover {
+    background-color: #d0822f;
+}
+
+/* Estilos para a imagem flutuante do WhatsApp */
+.whatsapp-image {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;   /* Aumentado o tamanho da imagem */
+    height: 80px;  /* Aumentado o tamanho da imagem */
+    z-index: 1000;
+}
+
+.whatsapp-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Estilo da lista horizontal */
+.menu-horizontal {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e6933e; /* Mesma cor do cabeçalho e rodapé */
+    margin: 0; /* Removendo a margem padrão */
+    padding: 0; /* Removendo o padding padrão */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.menu-horizontal li {
+    display: inline-block; /* Exibe os itens em linha */
+}
+
+.menu-horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-horizontal li a:hover {
+    background-color: #d0822f; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos adicionais exclusivos para a página cozinheiros.html */
+
+/* Centraliza o conteúdo da seção de cozinheiros */
+.cooks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px; /* Adiciona espaço acima do conteúdo */
+}
+
+/* Estilos para o perfil dos cozinheiros */
+.cook-profile {
+    max-width: 600px;
+    margin-bottom: 40px; /* Adiciona espaço abaixo de cada perfil */
+}
+
+.cook-profile img {
+    width: 300px; /* Aumenta o tamanho da imagem dos cozinheiros na página cozinheiros.html */
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+    
+}
+
+.cook-profile h3 {
+    color: #e6933e; /* Cor laranja para o nome dos cozinheiros */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do nome */
+}
+
+.cook-profile p {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do texto */
+}
+
+/* Estilos adicionais exclusivos para a página sugestoes.html */
+.suggestions-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6933e; /* Cor laranja para o título */
+}
+
+.suggestions-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestions-form .form-group {
+    margin-bottom: 20px;
+}
+
+.suggestions-form label {
+    font-weight: bold;
+}
+
+.suggestions-form input[type="text"],
+.suggestions-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.suggestions-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.suggestions-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e6933e; /* Cor laranja para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.suggestions-form button[type="submit"]:hover {
+    background-color: #d0822f; /* Cor laranja mais escura ao passar o mouse */
+}
+
+/* Estilos adicionais exclusivos para a página curriculo.html */
+.resume-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6933e; /* Cor laranja para o título */
+}
+
+.resume-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-form .form-group {
+    margin-bottom: 20px;
+}
+
+.resume-form label {
+    font-weight: bold;
+}
+
+.resume-form select,
+.resume-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.resume-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e6933e; /* Cor laranja para o botão */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-form button[type="submit"]:hover {
+    background-color: #d0822f; /* Cor laranja mais escura ao passar o mouse */
+}
+
+/* Outros estilos permanecem inalterados */
+
+/* Estilos para o container de receitas */
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as receitas quebrem para a próxima linha */
+    justify-content: space-around; /* Distribui as receitas uniformemente no espaço disponível */
+}
+
+/* Estilos para os cards da receita */
+.recipe-card {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Largura fixa para cada card */
+    margin: 20px; /* Espaçamento entre os cards */
+    border: none; /* Remover a borda */
+}
+
+/* Estilos para a imagem dentro do card da receita */
+.recipe-card .image-placeholder img {
+    width: 100%; /* Aumenta o tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+.recipe-card:hover .card-content {
+    transform: translateY(0);
+}
+
+.recipe-card:hover .image-placeholder img {
+    transform: scale(1.1);
+}
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(230, 147, 62, 0.8); /* Cor de fundo laranja alaranjado com transparência */
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    color: #fff; /* Cor do texto branco */
+}
+
+.recipe-card h2 {
+    text-align: center; /* Centraliza o título da receita */
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+}
+
+.image-placeholder {
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do card */
+}
+
+.image-placeholder img {
+    width: 100%; /* Ajusta a largura da imagem para ocupar todo o espaço */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para os links de ver receita */
+.recipe-preview a,
+.recipe-content a {
+    color: #e6933e; /* Laranja alaranjado */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.recipe-preview a{
+    color:#d0822f;
+}
+/* Estilo para o link quando visitado */
+.recipe-preview a:visited,
+.recipe-content a:visited {
+    color: #e6933e; /* Laranja alaranjado */
+}
+ 
+/* Estilo para o link quando clicado */
+.recipe-preview a:active,
+.recipe-content a:active {
+    color: #8B4513; /* Marrom */
+}
+
+.logo {
+    float: left; /* Posicione a logo à esquerda */
+    margin-right: 20px; /* Adicione espaço à direita da logo */
+  }
+  
+  .logo img {
+    width: 150px; /* Ajuste a largura da logo */
+    height: auto; /* Mantenha a proporção da imagem */
+  }
+
+  h1{
+    color: #e6933e;
+  }

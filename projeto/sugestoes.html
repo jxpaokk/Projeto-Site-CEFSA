@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões de Receitas - Meu Site de Receitas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo do Meu Site de Receitas">
+        </div>
+        </a>
+        <br>
+        <br>
+        <br>
+        <ul class="menu-horizontal">
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="cozinheiros.html">Cozinheiros</a></li>
+            <li><a href="sugestoes.html">Dê suas sugestões</a></li>
+            <li><a href="curriculo.html">Junte-se a gente!</a></li>
+            <li><a href="suporte.html">Suporte</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <section class="suggestions-form">
+            <h2>Envie sua Sugestão de Receita</h2>
+            <form action="#" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="recipe-name">Nome da Receita:</label>
+                    <input type="text" id="recipe-name" name="recipe-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="recipe-image">Anexar Imagem:</label>
+                    <input type="file" id="recipe-image" name="recipe-image" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="recipe-ingredients">Ingredientes:</label>
+                    <ul id="recipe-ingredients" contenteditable="true" class="list"></ul>
+                </div>
+                <div class="form-group">
+                    <label for="recipe-instructions">Modo de Preparo:</label>
+                    <ol id="recipe-instructions" contenteditable="true" class="list"></ol>
+                </div>
+                <button type="submit">Enviar Sugestão</button>
+            </form>
+        </section>
+        <!-- Imagem flutuante do WhatsApp -->
+        <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp-image">
+        <img src="images/whatsapp.png" alt="WhatsApp">
+        </a>
+    </main>
+
+    <footer>
+        <p>&copy; Ponto Certo</p>
+    </footer>
+
+    <script>    
+        const ingredientList = document.getElementById('recipe-ingredients');
+        const instructionList = document.getElementById('recipe-instructions');
+
+        // Função para adicionar um novo item à lista quando Enter é pressionado
+        function handleKeyPress(event, list) {
+            if (event.key === 'Enter') {
+                event.preventDefault(); // Impede a quebra de linha padrão
+                const newItem = document.createElement('li');
+                newItem.textContent = ''; // Cria um item vazio
+                list.appendChild(newItem);
+            }
+        }
+
+        // Adiciona um ouvinte de evento para o campo de ingredientes
+        ingredientList.addEventListener('keypress', (event) => {
+            handleKeyPress(event, ingredientList);
+        });
+
+        // Adiciona um ouvinte de evento para o campo de instruções
+        instructionList.addEventListener('keypress', (event) => {
+            handleKeyPress(event, instructionList);
+        });
+        </script>
+</body>
+</html>
